@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app, resources={
     r"/upload": {
         "origins": [
-            "http://localhost:5000",  
+            "http://localhost:10000",  
             "https://hecticpic.vercel.app",  
         ],
         "methods": ["POST", "OPTIONS"], 
