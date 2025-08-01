@@ -13,7 +13,7 @@ CORS(app, resources={
     r"/upload": {
         "origins": [
             "http://localhost:5000",  
-            "hecticpic-production.up.railway.app",  
+            "https://hecticpic.vercel.app",  
         ],
         "methods": ["POST", "OPTIONS"], 
         "allow_headers": ["Content-Type"],
